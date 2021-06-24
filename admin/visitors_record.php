@@ -46,13 +46,13 @@ session_start();
 <?php require_once 'visitors_crud.php'; ?>
 
 <?php
-  //$mysqli = new mysqli('remotemysql.com', 'J5BJ2ZlQGm', 'FYAvWP4mmz', 'J5BJ2ZlQGm') or die(mysqli_error($mysqli));
-  //$result = $mysqli->query("SELECT * FROM visitors") or die($mysqli->error);
+  $mysqli = new mysqli('remotemysql.com', 'J5BJ2ZlQGm', 'FYAvWP4mmz', 'J5BJ2ZlQGm') or die(mysqli_error($mysqli));
+  $result = $mysqli->query("SELECT * FROM visitors") or die($mysqli->error);
   //pre_r($result);
 ?>
 
       <main>
-        <div>	
+        	
           <div class="card-header" id="user">
             <p style="float: left; font-size: 30px;">Visitor's Record</p>
             <form  action="#" style=" float: left;">
@@ -107,7 +107,7 @@ session_start();
               </tr>
           <?php endwhile; ?>
           </table>
-        </div>
+        
       </main>
 
 
