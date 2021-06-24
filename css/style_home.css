@@ -972,9 +972,9 @@ p, h2{
 
 
 .td_2a{
-    margin-left: 20%;
+    margin-left: -20%;
     max-width: 750px;
-    padding: 30px 30px;
+    
     background: #fff;
     height: 950px;
     color: black;
@@ -991,4 +991,3 @@ p, h2{
   height: 30px;
   background-color: #E5E4E2;
 }
-

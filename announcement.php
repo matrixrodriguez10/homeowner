@@ -22,10 +22,10 @@
          <ul class="nav navbar-nav" id="mainNav">
            <li><a href="index.php" class="scroll-link">Home</a></li>
            <li><a href="about Us.php" class="scroll-link">About</a></li>
-           <li class="active"><a href="Announcement.php" class="scroll-link">Announcement </a></li>
+           <li class="active"><a href="announcement.php" class="scroll-link">Announcement </a></li>
            <li><a href="FAQs.php" class="scroll-link">FAQs</a></li>
-           <li><a href="Officers.php" class="scroll-link">Officers</a></li>
-           <li><a href="Login.php" class="scroll-link">Login</a></li>
+           <li><a href="officers.php" class="scroll-link">Officers</a></li>
+           <li><a href="login.php" class="scroll-link">Login</a></li>
          </ul>
         </div>
       </nav>

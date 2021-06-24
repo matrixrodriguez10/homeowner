@@ -46,8 +46,8 @@ session_start();
 <?php require_once 'scheduling_crud.php'; ?>
 
 <?php
-  $mysqli = new mysqli('remotemysql.com', 'J5BJ2ZlQGm', 'FYAvWP4mmz', 'J5BJ2ZlQGm') or die(mysqli_error($mysqli));
-  $result = $mysqli->query("SELECT * FROM scheduling") or die($mysqli->error);
+  $mysqli = new mysqli('remotemysql.com', 'J5BJ2ZlQGm', 'FYAvWP4mmz', 'J5BJ2ZlQGm');
+  $result = $mysqli->query("SELECT * FROM scheduling");
   //pre_r($result);
 ?>
 
@@ -226,7 +226,7 @@ session_start();
           <h2>EVENTS</h2>
           <div class="sidebar__link ">
             <i class="fa fa-bullhorn"></i>
-            <a href="Announcement.php">Announcements</a>
+            <a href="announcement.php">Announcements</a>
           </div>
          <div class="sidebar__link active_menu_link">
             <i class="fa fa-calendar-check-o"></i>

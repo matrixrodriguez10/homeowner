@@ -28,5 +28,5 @@ if(isset($_POST['save'])){
 	$_SESSION['message'] = "Record has been saved!";
 	$_SESSION['msg_type'] = "success";
 
-	header ("Location: scheduling.php");
+	header ("Location: Scheduling.php");
 }

@@ -107,7 +107,7 @@ session_start();
           <h2>EVENTS</h2>
           <div class="sidebar__link ">
             <i class="fa fa-bullhorn"></i>
-            <a href="Announcement.php">Announcements</a>
+            <a href="announcement.php">Announcements</a>
           </div>
           <div class="sidebar__link">
             <i class="fa fa-calendar-check-o"></i>

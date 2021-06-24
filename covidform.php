@@ -64,11 +64,11 @@ session_start();
           <div id="main-nav" class="collapse navbar-collapse navStyle">
             <ul class="nav navbar-nav" id="mainNav">
                <li><a href="index.php" class="scroll-link">Home</a></li>
-               <li><a href="About us.php" class="scroll-link">About</a></li>
+               <li><a href="about us.php" class="scroll-link">About</a></li>
                <li><a href="announcement.php" class="scroll-link">Announcement </a></li>
                <li><a href="FAQs.php" class="scroll-link">FAQs</a></li>
-               <li><a href="Officers.php" class="scroll-link">Officers</a></li>
-               <li><a href="Login.php" class="scroll-link">Login</a></li>
+               <li><a href="officers.php" class="scroll-link">Officers</a></li>
+               <li><a href="login.php" class="scroll-link">Login</a></li>
            </ul>
           </div>
         </nav>
@@ -79,7 +79,7 @@ session_start();
 <div class="wrapper_d" style="background-color: #E5E5E5; height: 100%;">
       		<div class="td_2a">
       			<form method="post">
-              <table style="margin-left:8%">
+              <table>
                 <tr>
                   <label style="color: black; font-size: 25px; margin-left: 30%; margin-top: 3%">Covid-19 Tracking Form</label>
                 </tr><br><br>

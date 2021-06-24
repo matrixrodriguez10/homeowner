@@ -58,18 +58,13 @@ if (isset($_POST['update'])) {
 	$position = $_POST['position'];
 
 	$mysqli->query("UPDATE admin SET image='$image', firstname='$firstname', lastname='$lastname', username='$username', password='$password', contact='$contact', email='$email', address='$address', bday='$bday', position='$position' WHERE id=$id") or die($mysqli->error());
-	
-
-	$_SESSION['message'] = "Record has been updated!";
-	$_SESSION['msg_type'] = "warning";
-
-	header("Location: admin_profile.php");
 
 	if (move_uploaded_file($_FILES['image']['tmp_name'], $target)) {
-      $msg = "Event Successfully Posted";
+		$_SESSION['message'] = "Record has been updated!";
 
-    //header("Location: employees_record.php");  
+	  	header("Location: Admin_profile.php"); 
+	   
     }else{
-      $msg = "There was a problem in uploading evenet";
+		$_SESSION['msg_type'] = "warning";
     }
 }

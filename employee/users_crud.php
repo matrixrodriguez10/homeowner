@@ -70,7 +70,7 @@ if (isset($_POST['update'])) {
 	if (move_uploaded_file($_FILES['image']['tmp_name'], $target)) {
      	$_SESSION['message'] = "Record has been updated!";
 
-    	header("Location: user.php");  
+    	header("Location: User.php");  
     }else{
       	$_SESSION['msg_type'] = "There was a problem in uploading event";
     }
