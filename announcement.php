@@ -74,7 +74,7 @@
               <tr>
                 <td>
                   <?php echo "<div id='img_div'>"; ?>
-                  <?php echo "<img src='../admin/images/".$row['image']."' >"; ?> <br>
+                  <?php echo "<img src='admin/images/".$row['image']."' >"; ?> <br>
                   <h3><?php echo $row['agenda']; ?></h3><br>
                   <?php echo $row['date']; ?> &nbsp;
                   <?php echo $row['time']; ?> <br><br>
