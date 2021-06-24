@@ -24,7 +24,7 @@ session_start();
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style_employee.css" />
     <title>Visitors Record</title>
   </head>
   <body id="body">
@@ -66,10 +66,8 @@ session_start();
               <button class="btn_down"><i class="fa fa-caret-down"></i></button>
               <div class="dropdown-content">
                 <button id="myBtn" style="height: 40px; width: 100%; background-color: #fff; color: green; font-size: 18px;"><i class="fa fa-edit"></i> Create</button><br>
-                
                 <button id="myBtn_imp" style="height: 40px; width: 100%; background-color: #fff; color: green; font-size: 18px;"><i class="fa fa-file-text"></i> Import</button>
-                
-                <form method="post">
+                <form method="post" action>
                   <button type="submit" name="exp" value="Export" style="height: 40px; width: 100%; background-color: #fff; color: green; font-size: 18px;"><i class="fa fa-file"></i> Export</button>
                 </form>
                 </div>
