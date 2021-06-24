@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-  $conn = mysqli_connect("localhost", "root", "", "capstonedb");
+  $conn = mysqli_connect('remotemysql.com', 'J5BJ2ZlQGm', 'FYAvWP4mmz', 'J5BJ2ZlQGm');
 
   if($_SERVER['REQUEST_METHOD']=="POST"){
 
@@ -29,6 +29,7 @@ session_start();
         mysqli_query($conn, $query);
 
         header("Location: covidform.php");
+        echo "<script>Thank you for submitting!</script>";
         die;
     }
     else {
