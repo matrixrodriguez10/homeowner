@@ -51,11 +51,11 @@ session_start();
                       <input type="hidden" name="id" value="<?php echo $id; ?>">
                       <label>Paid By:</label><span><input type="text" name="pby" value="<?php echo $pby; ?>"> </span>
                       <label>Date:</label><span><input type="date" name="date" value="<?php echo $date; ?>"></span>
-                      <label>Description</label><span><textarea name="description"><?php echo $description; ?></textarea> </span>
+                      <label>Description:</label><span><textarea name="description"><?php echo $description; ?></textarea> </span>
                     </div>
 
                     <div class="column">
-                        <label>Paid To:</label><span><input type="text" name="pto" value="<?php echo $pto; ?>"> </span>
+                        <label>Category:</label><span><input type="text" name="pto" value="<?php echo $pto; ?>"> </span>
                         <label>Amount:</label><span><input  type="text" name="amount" value="<?php echo $amount; ?>"></span>
                     </div>
                     <button class="button_emp" name="update" type="submit" >UPDATE</button>

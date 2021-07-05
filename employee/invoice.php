@@ -43,7 +43,7 @@ session_start();
       <main>
         <div class="table_contadiner">	
           <div class="card-header" id="user">
-            <p style="float: left; font-size: 30px;">Invoice</p>
+            <p style="float: left; font-size: 30px;">Payment Collection</p>
             <form  action="#" style=" float: left;">
               
               <input type="search" placeholder="Search.." name="search2" id="myInput" style="width: 350px; height: 40px; margin-left: 50px;">
@@ -80,7 +80,7 @@ session_start();
               <tr>
                 <th style="width: 6%;"><b>No.</b></th>
                 <th><b>Paid By</b></b></th>
-                <th><b>Paid To</b></th>
+                <th><b>Category</b></th>
                 <th><b>Date</b></th>
                 <th><b>Description</b></th>
                 <th><b>Amount</b></th>
@@ -124,7 +124,7 @@ session_start();
                     </div>
 
                     <div class="column">
-                        <label>Paid To:</label><span><input  type="text" name="pto" required=""> </span>
+                        <label>Category:</label><span><input  type="text" name="pto" required=""> </span>
                         <label>Amount:</label><span><input  type="text" name="amount" required=""></span>
                     </div>
                     <button class="button_emp" type="submit" name="save">CREATE</button>

@@ -46,7 +46,7 @@
                     </div>
 
                     <div class="column">
-                        <label>Paid To:</label><span><input  type="text" name="pto" value="<?php echo $pto; ?>"> </span>
+                        <label>Category:</label><span><input  type="text" name="pto" value="<?php echo $pto; ?>"> </span>
                         <label>Amount:</label><span><input  type="text" name="amount" value="<?php echo $amount; ?>"></span>
                     </div>
                     <button class="button_emp" name="update" type="submit" >UPDATE</button>
